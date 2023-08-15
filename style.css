@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(gr1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#login-container {
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+#app {
+  /* background-color: #4e4a4a; */
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #1a1919;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-top: 150px;
+  height: 200px;
+  opacity: 0.6;
+}
+
+#inventory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+#ap {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #331515;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-top: 15px;
+  height: 300px;
+  opacity: 0.6;
+}
+
+#notifications {
+  margin-bottom: 10px;
+  color: green;
+}
+
+#item-list {
+  list-style: none;
+  padding: 0;
+  /* width: 500px; */
+}
+
+#item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+
+
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: brown;
+}
